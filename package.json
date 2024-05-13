@@ -2,9 +2,11 @@
   "name": "real-time-markdown-viewer",
   "version": "1.0.0",
   "description": "Real Time Markdown Viewer",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \" Build command is running\"",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
